@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cristian"
+version = "0.1.0"
+description = ""
+authors = ["cristian-dinu-69 <cristian69dinu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.4"
+numpy = "1.22.4"
+pandas = "2.1.0"
+scikit-learn = "1.0.2"
+matplotlib = "3.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
