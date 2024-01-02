@@ -1,0 +1,19 @@
+$ poetry e instalat in documents
+$ poetry new folder_name
+$ cd folder_name
+$ pyenv global x.x.x
+$ poetry env use /home/cristian/.pyenv/versions/x.x.x/bin/python
+
+# Creating virtualenv cristian in /home/cristian/Documents/folder_name/.venv
+# Using virtualenv: /home/cristian/Documents/folder_name/.venv
+
+set pyproject.toml
+
+[tool.poetry.dependencies]
+python = "3.9.4"
+numpy = "1.22.4"
+pandas = "2.1.0"
+scikit-learn = "1.0.2"
+matplotlib = "3.8.0"
+
+$ poetry install
